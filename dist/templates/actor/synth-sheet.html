@@ -3,7 +3,7 @@
 	<header class="actor-header">
 		<img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.img}}"/>
 		<div class="header-fields">
-			<h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "ALIENRPG.Name"}}" /></h1>
+			<h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize 'ALIENRPG.Name'}}" /></h1>
 				<div class="resources grid grid-4col">
 				{{!-- Health and Stress --}}
 				<h2 for="data.health.value" class="resource-label">{{ localize "ALIENRPG.Health"}}</h2>
@@ -168,8 +168,8 @@
 							<h3 class="Air1 resource-label">{{localize "ALIENRPG.Power"}}</h3>
 							<div class="resource-content">
 								<input type="text" class="maxboxsize" name="data.consumables.power.value" value="{{data.consumables.power.value}}" data-dtype="Number" disabled />
-								<button type="button" class="supply-btn Air2" data-spbutt="Power">
-								<i class="fas fa-parachute-box fa-xs" title="{{localize 'ALIENRPG.Supply'}}"></i></button>
+								<!-- <button type="button" class="supply-btn Power2" data-spbutt="Power">
+								<i class="fas fa-parachute-box fa-xs" title="{{localize 'ALIENRPG.Supply'}}"></i></button> -->
 							</div>
 						</div>
 						
